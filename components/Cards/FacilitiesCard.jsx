@@ -19,12 +19,9 @@ export default function FacilitiesCard({ images }) {
         </p>
       </div>
 
-      <Link
-        href={"/"}
-        className=" w-[270px] h-[40.5px] mb-[40px] text-xl text-center text-white underline"
-      >
+      <button className=" w-[270px] h-[40.5px] mb-[40px] text-xl text-center text-white underline">
         Подробнее
-      </Link>
+      </button>
     </div>
   );
 }

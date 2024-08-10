@@ -139,10 +139,10 @@ export default function TheForm() {
         </div>
         <div className="right hidden md:block md:flex-1 relative">
           <div className="  h-[700px] overflow-hidden ">
-            <img className="w-full" src={"/remont.jpg"} alt="image" />
+            <img className="w-full" src={"/remont.jpg"} alt="image" referrerpolicy="no-referrer"/>
           </div>
           <div className="absolute bottom-[-270px] right-[-100px] w-[400px]">
-            <img className="w-full" src={"/lesa.png"} alt="leso" />{" "}
+            <img className="w-full" src={"/lesa.png"} alt="leso"referrerpolicy="no-referrer" />{" "}
           </div>
         </div>
       </div>

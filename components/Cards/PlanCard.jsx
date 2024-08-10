@@ -10,6 +10,7 @@ export default function PlanCard({ image }) {
         src={image}
         className="w-full h-48 rounded-[10px] object-cover"
         alt=""
+        referrerpolicy="no-referrer"
       />
 
       <p className="w-[274px] text-[23px] text-left text-[#593f0d] mt-[19px] mb-[16px]">

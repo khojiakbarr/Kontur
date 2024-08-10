@@ -28,6 +28,7 @@ export default function Hero() {
                 className=" absolute w-[50px] md:w-[100px] right-[-30px] md:right-[-52px] top-[-10px]"
                 src={"/docs.png"}
                 alt="doc"
+                referrerpolicy="no-referrer"
               />
             </button>
           </div>
@@ -39,7 +40,7 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" />
+                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
                 </div>
               </div>
               <div className="rounded-[20px]">
@@ -48,7 +49,7 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" />
+                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
                 </div>
               </div>
               <div className="rounded-[20px]">
@@ -57,7 +58,7 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" />
+                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
                 </div>
               </div>
               {/* ///poftor */}
@@ -67,7 +68,7 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" />
+                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
                 </div>
               </div>{" "}
               <div className="rounded-[20px]">
@@ -76,7 +77,7 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" />
+                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
                 </div>
               </div>{" "}
               <div className="rounded-[20px]">
@@ -85,7 +86,7 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" />
+                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer" />
                 </div>
               </div>
             </div>

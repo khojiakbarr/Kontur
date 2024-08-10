@@ -1,3 +1,4 @@
+"use client";
 import BasicAccordion from "@/components/Accordion/BasicAccordion";
 import FacilitiesCard from "@/components/Cards/FacilitiesCard";
 import PlanCard from "@/components/Cards/PlanCard";
@@ -7,17 +8,21 @@ import Contact from "@/components/Contact/Contact";
 import Doverya from "@/components/Doverya/Doverya";
 import FiveShag from "@/components/FiveShag/FiveShag";
 import Hero from "@/components/Hero/Hero";
+import Main_btn from "@/components/Main_btn/Main_btn";
 import TheForm from "@/components/TheForm/TheForm";
 import TheHeader from "@/components/TheHeader/TheHeader";
 import { Footer } from "flowbite-react";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+  const [isModal, setIsModal] = useState(false);
   return (
     <>
       <TheHeader />
-      <main className=" overflow-hidden">
+      <main className=" overflow-hidden ">
         <Hero />
+        <Main_btn />
         <div>{/* <button className="bg_color fixed">Связаться</button> */}</div>
         <div className="flex flex-col items-center mt-[30px] md:mt-[50px]">
           <h2 className="w-auto md:w-[660px] text-[23px] md:text-[40px] text-center px-[15px] font-[700]">
@@ -30,12 +35,33 @@ export default function Home() {
           </h3>
         </div>
         <div className="flex gap-[20px] md:gap-[40px] justify-center mt-[10px] flex-wrap p-[15px] relative container">
-          <FacilitiesCard images={"/bg_gradient.png"} />{" "}
-          <FacilitiesCard images={"/bg_gradient.png"} />
-          <FacilitiesCard images={"/bg_gradient.png"} />
-          <FacilitiesCard images={"/bg_gradient.png"} />
+          <FacilitiesCard
+            images={"/bg_gradient.png"}
+            isModal={isModal}
+            setIsModal={setIsModal}
+          />{" "}
+          <FacilitiesCard
+            images={"/bg_gradient.png"}
+            isModal={isModal}
+            setIsModal={setIsModal}
+          />
+          <FacilitiesCard
+            images={"/bg_gradient.png"}
+            isModal={isModal}
+            setIsModal={setIsModal}
+          />
+          <FacilitiesCard
+            images={"/bg_gradient.png"}
+            isModal={isModal}
+            setIsModal={setIsModal}
+          />
           <div className="hidden md:block xl:w-[200px] absolute  bottom-[-150px] xl:bottom-[-80px] right-0">
-            <img className="w-full" src={"/kraska.svg"} alt="kraska" />
+            <img
+              className="w-full"
+              src={"/kraska.svg"}
+              alt="kraska"
+              referrerpolicy="no-referrer"
+            />
           </div>
         </div>
         <div className="flex  justify-center my-[70px]">
@@ -133,7 +159,6 @@ export default function Home() {
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11984.83248494579!2d69.2281415!3d41.32608755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1722079107110!5m2!1sru!2s"
                 width="100%"
                 height="100%"
-                loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>

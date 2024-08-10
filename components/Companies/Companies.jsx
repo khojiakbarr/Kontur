@@ -17,16 +17,22 @@ export default function Companies() {
           </div>
           <div className=" w-full flex justify-center mt-[17px] flex-col items-center">
             {" "}
-            <img src={"/companies_jp.jpg"} alt="componies" />
+            <img
+              src={"/companies_jp.jpg"}
+              alt="componies"
+              referrerpolicy="no-referrer"
+            />
             <img
               className=" hidden md:block absolute bottom-[-150px] left-0"
               src={"/arava.png"}
               alt=""
+              referrerpolicy="no-referrer"
             />{" "}
             <img
               className=" hidden md:block absolute bottom-[-50px] right-0"
               src={"/bonka_kraska.png"}
               alt=""
+              referrerpolicy="no-referrer"
             />
             <div className="flex justify-center my-[50px] ">
               <button className="bg_color px-[20px] py-[15px] md:px-[30px] md:py-[20px] rounded-[15px] md:rounded-[20px] text-[12px] md:text-[15px] font-bold shadow-2xl">
@@ -52,7 +58,7 @@ export default function Companies() {
             </button>
           </div>
           <div className="hidden md:block">
-            <img src={"/one_more.png"} alt="" />
+            <img src={"/one_more.png"} alt="" referrerpolicy="no-referrer" />
           </div>
         </div>
       </div>
