@@ -1,0 +1,11 @@
+.bg_form {
+  background-image: url("/navbar.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #ff8a00;
+  cursor: pointer;
+}

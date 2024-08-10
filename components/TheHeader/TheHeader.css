@@ -1,0 +1,130 @@
+:root {
+  --w: 1vw;
+}
+
+.bg-nav {
+  background-image: url("/navbar.webp");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  @media (min-width: 1400px) {
+    background-image: url("/new_bg.webp");
+  }
+}
+
+.navbar {
+  z-index: 9999;
+}
+
+.animate_wrapper {
+  display: flex;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  transform: rotate(41deg) translateY(-70px);
+
+  @media (min-width: 1400px) {
+    display: none;
+  }
+
+  @media (min-width: 343px) {
+    transform: rotate(42deg) translateY(-68px);
+  }
+  @media (min-width: 374px) {
+    transform: rotate(39deg) translateY(-68px);
+  }
+  @media (min-width: 389px) {
+    transform: rotate(39deg) translateY(-64px);
+  }
+  @media (min-width: 411px) {
+    transform: rotate(38deg) translateY(-65px);
+  }
+  @media (min-width: 413px) {
+    transform: rotate(38deg) translateY(-68px);
+  }
+
+  @media (min-width: 430px) {
+    transform: rotate(38deg) translateY(-70px);
+  }
+  @media (min-width: 540px) {
+    transform: rotate(26deg) translateY(-80px);
+  }
+  @media (min-width: 767px) {
+    transform: rotate(40deg) translateY(-125px);
+  }
+  @media (min-width: 819px) {
+    transform: rotate(40deg) translateY(-130px);
+  }
+  @media (min-width: 853px) {
+    transform: rotate(39deg) translateY(-140px);
+  }
+  @media (min-width: 1024px) {
+    transform: rotate(34deg) translateY(-150px);
+  }
+
+  @media (min-width: 1280px) {
+    transform: rotate(28deg) translateY(-170px);
+  }
+
+  @media (min-width: 1400px) {
+    transform: rotate(22deg) translateY(-160px);
+  }
+
+  @media (min-width: 1536px) {
+    transform: rotate(24deg) translateY(-175px);
+  }
+}
+
+.scroller {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  display: flex;
+  margin-right: 0;
+  @media (min-width: 343px) {
+    right: -5px;
+  }
+  @media (min-width: 350px) {
+    right: -5px;
+  }
+  @media (min-width: 389px) {
+    top: -3px;
+    margin-right: 4px;
+  }
+  @media (min-width: 411px) {
+    top: -3px;
+    margin-right: 6px;
+  }
+
+  @media (min-width: 717px) {
+    margin-right: -3px;
+  }
+  @media (min-width: 820px) {
+    margin-right: 4px;
+  }
+  @media (min-width: 1024px) {
+    margin-right: 10px;
+  }
+}
+
+.nomer {
+  @media (min-width: 343px) {
+    font-size: 11px;
+  }
+  @media (min-width: 350px) {
+    font-size: 11px;
+  }
+  @media (min-width: 390px) {
+    font-size: 12px;
+  }
+  @media (min-width: 429px) {
+    font-size: 12px;
+  }
+  @media (min-width: 768px) {
+    font-size: 27px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+.bg_contact {
+  background-image: url("/bg_contact.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (max-width: 767px) {
+    background-image: url("/mobile_bg.jpg");
+    background-size: cover;
+    background-position: right;
+  }
+}
+
+.inputControl {
+  border: 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.412);
+  outline: none !important;
+}
