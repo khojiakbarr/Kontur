@@ -9,20 +9,31 @@ import Doverya from "@/components/Doverya/Doverya";
 import FiveShag from "@/components/FiveShag/FiveShag";
 import Hero from "@/components/Hero/Hero";
 import Main_btn from "@/components/Main_btn/Main_btn";
+import Modal from "@/components/Modal/Modal";
 import TheForm from "@/components/TheForm/TheForm";
 import TheHeader from "@/components/TheHeader/TheHeader";
 import { Footer } from "flowbite-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [isModal, setIsModal] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden"; // Skrollni bloklash
+    } else {
+      document.body.style.overflow = "auto"; // Skrollni qayta tiklash
+    }
+  }, [isModalOpen]);
   return (
     <>
       <TheHeader />
       <main className=" overflow-hidden ">
         <Hero />
         <Main_btn />
+        <Modal setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen} />
         <div>{/* <button className="bg_color fixed">Связаться</button> */}</div>
         <div className="flex flex-col items-center mt-[30px] md:mt-[50px]">
           <h2 className="w-auto md:w-[660px] text-[23px] md:text-[40px] text-center px-[15px] font-[700]">
@@ -36,6 +47,7 @@ export default function Home() {
         </div>
         <div className="flex gap-[20px] md:gap-[40px] justify-center mt-[10px] flex-wrap p-[15px] relative container">
           <FacilitiesCard
+            setIsModalOpen={setIsModalOpen}
             images={"/bg_gradient.png"}
             isModal={isModal}
             setIsModal={setIsModal}
@@ -77,7 +89,7 @@ export default function Home() {
               {" "}
               выгодные решения
             </span>{" "}
-            для
+            для 
           </h2>
           <h3 className="text-[18px] md:w-[750px] md:text-[25px] text-center text-[#593f0d]">
             Выберите тариф, который вам подходит

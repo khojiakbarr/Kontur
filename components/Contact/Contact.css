@@ -5,9 +5,12 @@
   background-repeat: no-repeat;
 
   @media (max-width: 767px) {
-    background-image: url("/mobile_bg.jpg");
+    background-image: url("/bg-form_mobile.webp");
     background-size: cover;
-    background-position: right;
+    background-position: top center;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    background-image: url("/bg-form.webp");
   }
 }
 

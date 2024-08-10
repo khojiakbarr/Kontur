@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function FacilitiesCard({ images }) {
+export default function FacilitiesCard({ images, setIsModalOpen }) {
   return (
     <div
       className="w-full md:w-[580px] h-[410px] flex items-center flex-col"
@@ -19,7 +19,10 @@ export default function FacilitiesCard({ images }) {
         </p>
       </div>
 
-      <button className=" w-[270px] h-[40.5px] mb-[40px] text-xl text-center text-white underline">
+      <button
+        onClick={() => setIsModalOpen(true)}
+        className=" w-[270px] h-[40.5px] mb-[40px] text-xl text-center text-white underline"
+      >
         Подробнее
       </button>
     </div>

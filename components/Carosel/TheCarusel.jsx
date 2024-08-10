@@ -1,11 +1,14 @@
 import { Carousel } from "flowbite-react";
 
-export default function TheCarusel() {
+export default function TheCarusel(title) {
   return (
     <div className="container p-[15px]">
-      <h2 className="text-[25px] md:text-[40px] font-normal text-center mt-[50px] md:mt-[120px] mb-[20px]">
-        Отзывы наших клиентов
-      </h2>
+      {title && (
+        <h2 className="text-[25px] md:text-[40px] font-normal text-center mt-[50px] md:mt-[120px] mb-[20px]">
+          Отзывы наших клиентов
+        </h2>
+      )}
+
       <div className="flex justify-center h-56 md:h-[520px]">
         <Carousel
           slideInterval={6000}
