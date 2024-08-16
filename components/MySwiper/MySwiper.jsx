@@ -28,11 +28,25 @@ export default function MySwiper({ setIsModalOpen, isModalOpen }) {
           От небольших студий до ресторанов на высоте 100 метров
         </h3>
       </div>
-      <div className="container relative ">
+      <div className="container relative px-[15px] ">
         <Swiper
           keyboard={true}
           navigation={true}
           slidesPerView={2}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            450: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 30,
+            },
+          }}
           // autoplay={{
           //   delay: 4500,
           // }}
