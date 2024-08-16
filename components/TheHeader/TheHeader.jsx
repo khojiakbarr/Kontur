@@ -9,12 +9,6 @@ export default function TheHeader() {
             <div className="scroller flex gap-10">
               <Link href={"tel:+998997224753"}>
                 <div className=" flex items-center">
-                  <img
-                    className="hidden md:block w-[20px] md:w-[30px] xl:w-[74px]"
-                    src={"/telefon_icon.svg"}
-                    alt=""
-                    referrerpolicy="no-referrer"
-                  />
                   <span className="nomer text-[13px] text-[#593f0d] md:text-[54px] xl:text-[50px] font-bold">
                     +998 99 722 47 53
                   </span>
@@ -31,7 +25,7 @@ export default function TheHeader() {
             className={` w-[100px] md:w-[200px] mt-[8px]`}
             src={"/logo.svg"}
             alt="logo"
-            referrerpolicy="no-referrer"
+            referrerPolicy="no-referrer"
           />
         </Link>
         <ul className={` flex gap-[6px] items-center md:gap-[12px]`}>

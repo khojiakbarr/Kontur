@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import "./Main_btn.css";
 
 export default function Main_btn() {
   const [state, setState] = useState(false);
@@ -57,8 +59,11 @@ export default function Main_btn() {
         </div>
       </div>
       <div className="flex justify-end">
-        <button onClick={() => setState(!state)}>
-          <img className="w-[60px]" src="/main_icon.png" alt="" />
+        <button
+          onClick={() => setState(!state)}
+          className=" rounded-full p-[20px]  animate_btn"
+        >
+          <BsFillTelephoneFill size={32} />
         </button>
       </div>
     </div>

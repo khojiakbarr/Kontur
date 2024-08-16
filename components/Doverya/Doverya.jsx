@@ -1,5 +1,6 @@
 import React from "react";
 import DoveryaCard from "../DoveryaCard/DoveryaCard";
+import Link from "next/link";
 
 export default function Doverya() {
   return (
@@ -47,9 +48,11 @@ export default function Doverya() {
           />
         </div>
         <div className="flex justify-center mt-[60px] mb-[100px]">
-          <button className="bg_color px-[30px] md:px-[50px] py-[15px] md:py-[30px] rounded-[15px] md:rounded-[30px] shadow-2xl text-[12px] font-bold">
-            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-          </button>
+          <Link href={"#contact"}>
+            <button className="bg_color px-[30px] md:px-[50px] py-[15px] md:py-[30px] rounded-[15px] md:rounded-[30px] shadow-2xl text-[12px] font-bold">
+              ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+            </button>
+          </Link>
         </div>
       </div>
     </section>

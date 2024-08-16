@@ -19,27 +19,27 @@ export default function TheCarusel(title) {
             <img
               src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
               alt="..."
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
             <img
               src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
               alt="..."
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
             <img
               src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
               alt="..."
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
             <img
               src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
               alt="..."
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
             <img
               src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
               alt="..."
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
           </Carousel>
         </div>

@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer/Footer";
 import TheHeader from "@/components/TheHeader/TheHeader";
 import HomePage from "@/components/Home/HomePage";
 
@@ -14,7 +13,6 @@ export default function Home() {
       <main className=" overflow-hidden ">
         <HomePage />
       </main>
-      <Footer />
     </>
   );
 }

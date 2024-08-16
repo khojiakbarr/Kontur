@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -22,15 +23,17 @@ export default function Hero() {
               Выполним ремонт точно в срок с гарантией по договору
             </h3>
 
-            <button className="bg_color px-[10px] relative button md:px-[24px] py-[10px] md:py-[24px] shadow-xl mt-[30px] mb-[30px] md:my-[40px] rounded-[10px] text-[10px] md:text-[14px] font-[700] cursor-pointer">
-              Рассчитать стоимость ремонта
-              <img
-                className=" absolute w-[50px] md:w-[100px] right-[-30px] md:right-[-52px] top-[-10px]"
-                src={"/docs.png"}
-                alt="doc"
-                referrerpolicy="no-referrer"
-              />
-            </button>
+            <Link href={'#form_info'}>
+              <button className="bg_color px-[10px] relative button md:px-[24px] py-[10px] md:py-[24px] shadow-xl mt-[30px] mb-[30px] md:my-[40px] rounded-[10px] text-[10px] md:text-[14px] font-[700] cursor-pointer">
+                Рассчитать стоимость ремонта
+                <img
+                  className=" absolute w-[50px] md:w-[100px] right-[-30px] md:right-[-52px] top-[-10px]"
+                  src={"/docs.png"}
+                  alt="doc"
+                  referrerpolicy="no-referrer"
+                />
+              </button>
+            </Link>
           </div>
           <div className="wrapper_scroll hidden  absolute right-0 top-0 w-[50%] lg:flex justify-center ">
             <div className="scroller_content flex flex-col gap-[20px] mr-[40px]">

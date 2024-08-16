@@ -33,7 +33,7 @@ export default function TheForm() {
   };
 
   return (
-    <section>
+    <section id="form_info">
       <div className=" relative mb-[120px] md:mb-[350px]">
         <div className="relative z-[2]">
           <div className="bg_form h-[190px] md:h-[420px] absolute w-full">
@@ -144,7 +144,7 @@ export default function TheForm() {
                 className="w-full"
                 src={"/remont.jpg"}
                 alt="image"
-                referrerpolicy="no-referrer"
+                referrerPolicy="no-referrer"
               />
             </div>
             <div className="absolute bottom-[-270px] right-[-100px] w-[400px]">
@@ -152,7 +152,7 @@ export default function TheForm() {
                 className="w-full"
                 src={"/lesa.png"}
                 alt="leso"
-                referrerpolicy="no-referrer"
+                referrerPolicy="no-referrer"
               />{" "}
             </div>
           </div>

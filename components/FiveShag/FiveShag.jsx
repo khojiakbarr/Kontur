@@ -1,3 +1,4 @@
+import Link from "next/link";
 import FiveShagCard from "./FiveShagCard";
 
 export default function FiveShag() {
@@ -58,14 +59,16 @@ export default function FiveShag() {
               className=" object-center scale-150"
               src={"instrment_jp.png"}
               alt=""
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
           </div>
         </div>
         <div className="flex justify-center my-[50px]">
-          <buttton className="bg_color px-[20px] py-[15px] md:px-[30px] md:py-[20px] inline-block text-[13px] font-bold rounded-[15px] md:rounded-[20px] shadow-2xl cursor-pointer ">
-            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-          </buttton>
+          <Link href={"#contact"}>
+            <buttton className="bg_color px-[20px] py-[15px] md:px-[30px] md:py-[20px] inline-block text-[13px] font-bold rounded-[15px] md:rounded-[20px] shadow-2xl cursor-pointer ">
+              ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+            </buttton>
+          </Link>
         </div>
       </div>
     </section>

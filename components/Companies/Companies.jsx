@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Companies() {
@@ -20,24 +21,26 @@ export default function Companies() {
             <img
               src={"/companies_jp.jpg"}
               alt="componies"
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
             <img
               className=" hidden md:block absolute bottom-[-150px] left-0"
               src={"/arava.png"}
               alt=""
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />{" "}
             <img
               className=" hidden md:block absolute bottom-[-50px] right-0"
               src={"/bonka_kraska.png"}
               alt=""
-              referrerpolicy="no-referrer"
+              referrerPolicy="no-referrer"
             />
             <div className="flex justify-center my-[50px] ">
-              <button className="bg_color px-[20px] py-[15px] md:px-[30px] md:py-[20px] rounded-[15px] md:rounded-[20px] text-[12px] md:text-[15px] font-bold shadow-2xl">
-                ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-              </button>
+              <Link href={"#contact"}>
+                <button className="bg_color px-[20px] py-[15px] md:px-[30px] md:py-[20px] rounded-[15px] md:rounded-[20px] text-[12px] md:text-[15px] font-bold shadow-2xl">
+                  ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,7 +61,7 @@ export default function Companies() {
             </button>
           </div>
           <div className="hidden md:block">
-            <img src={"/one_more.png"} alt="" referrerpolicy="no-referrer" />
+            <img src={"/one_more.png"} alt="" referrerPolicy="no-referrer" />
           </div>
         </div>
       </div>

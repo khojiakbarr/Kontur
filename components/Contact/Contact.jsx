@@ -6,7 +6,7 @@ import { FloatingLabel } from "flowbite-react";
 
 export default function Contact() {
   return (
-    <section>
+    <section id="contact">
       <div className="bg_contact">
         <div className="flex container px-[15px] pt-[200px] md:pt-[160px] pb-[177px] flex-wrap lg:flex-row flex-col-reverse  ">
           <div className="w-auto flex flex-col items-end">

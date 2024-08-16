@@ -14,3 +14,7 @@
 .bg_color {
   background: #ff8800;
 }
+
+html {
+  scroll-behavior: smooth;
+}

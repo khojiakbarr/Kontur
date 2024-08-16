@@ -14,6 +14,7 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 import { swiperdata } from "@/static/swiperData";
+import Link from "next/link";
 
 export default function MySwiper({ setIsModalOpen, isModalOpen }) {
   return (
@@ -47,9 +48,9 @@ export default function MySwiper({ setIsModalOpen, isModalOpen }) {
               spaceBetween: 30,
             },
           }}
-          // autoplay={{
-          //   delay: 4500,
-          // }}
+          autoplay={{
+            delay: 4500,
+          }}
           grid={{
             rows: 2,
           }}
@@ -80,9 +81,11 @@ export default function MySwiper({ setIsModalOpen, isModalOpen }) {
       </div>
 
       <div className="flex  justify-center my-[70px]">
-        <button className="bg_color  px-[30px] md:px-[50px] pt-[15px] pb-[15px] md:pt-[30px] md:pb-[20px] rounded-[20px] shadow-xl text-[15px] font-[700]">
-          ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-        </button>
+        <Link href={"#contact"}>
+          <button className="bg_color  px-[30px] md:px-[50px] pt-[15px] pb-[15px] md:pt-[30px] md:pb-[20px] rounded-[20px] shadow-xl text-[15px] font-[700]">
+            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+          </button>
+        </Link>
       </div>
     </section>
   );

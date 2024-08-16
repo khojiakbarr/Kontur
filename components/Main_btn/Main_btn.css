@@ -1,0 +1,18 @@
+.animate_btn {
+  animation: btn_animate infinite 1.6s ease;
+}
+
+@keyframes btn_animate {
+  0% {
+    background-color: #ffbf17;
+    color: #4b3100;
+  }
+  50% {
+    background-color: #4b3100;
+    color: #ffbf17;
+  }
+  100% {
+    color: #4b3100;
+    background-color: #ffbf17;
+  }
+}
