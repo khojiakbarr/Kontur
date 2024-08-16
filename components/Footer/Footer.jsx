@@ -48,7 +48,7 @@ export default function Footer() {
 
           <div className="w-full h-[300px] sm:h-auto sm:w-2/3 ">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11984.83248494579!2d69.2281415!3d41.32608755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1722079107110!5m2!1sru!2s"
+              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d8230.632198721647!2d69.28627166151907!3d41.30624081047051!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE4JzI0LjMiTiA2OcKwMTcnMTIuMyJF!5e0!3m2!1sru!2s!4v1723811195029!5m2!1sru!2s"
               width="100%"
               height="100%"
               referrerPolicy="no-referrer-when-downgrade"
