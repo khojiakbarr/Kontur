@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Companies() {
   return (
-    <>
+    <section>
       <div className="relative">
         <div className="container px-[15px]">
           <div className="flex justify-center text-center flex-col items-center">
@@ -62,6 +62,6 @@ export default function Companies() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

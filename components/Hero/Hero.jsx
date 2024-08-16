@@ -40,25 +40,36 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
+                  <img
+                    src={"/kamera.png"}
+                    alt="kamera"
+                    referrerpolicy="no-referrer"
+                  />
                 </div>
               </div>
-              <div className="rounded-[20px]">
+              <div className="rounded-[20px] h-[306px]">
                 <div className=" w-[320px] backdrop-blur-[13px] flex flex-col items-center justify-center p-[20px] rounded-[20px]  ">
                   <p className="font-[400] text-[18px] text-center text-white ">
-                    Установим камеру, для наблюдения за ремонтом в режиме
-                    реального времени с компьютера или мобильного телефона
+                    Специальные условия от поставщиков мебели для наших клиентов
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
+                  <img
+                    src={"/qalam_ruchka_icon.png"}
+                    alt="qalam"
+                    referrerpolicy="no-referrer"
+                  />
                 </div>
               </div>
-              <div className="rounded-[20px]">
+              <div className="rounded-[20px] ">
                 <div className=" w-[320px] backdrop-blur-[13px] flex flex-col items-center justify-center p-[20px] rounded-[20px]  ">
                   <p className="font-[400] text-[18px] text-center text-white ">
-                    Установим камеру, для наблюдения за ремонтом в режиме
-                    реального времени с компьютера или мобильного телефона
+                    Даем гарантию на свои работы 2 года
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
+                  <img
+                    className="py-[40px]"
+                    src={"/insturment_icon.png"}
+                    alt="insturment"
+                    referrerpolicy="no-referrer"
+                  />
                 </div>
               </div>
               {/* ///poftor */}
@@ -68,25 +79,36 @@ export default function Hero() {
                     Установим камеру, для наблюдения за ремонтом в режиме
                     реального времени с компьютера или мобильного телефона
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
+                  <img
+                    src={"/kamera.png"}
+                    alt="kamera"
+                    referrerpolicy="no-referrer"
+                  />
                 </div>
-              </div>{" "}
-              <div className="rounded-[20px]">
+              </div>
+              <div className="rounded-[20px] h-[306px]">
                 <div className=" w-[320px] backdrop-blur-[13px] flex flex-col items-center justify-center p-[20px] rounded-[20px]  ">
                   <p className="font-[400] text-[18px] text-center text-white ">
-                    Установим камеру, для наблюдения за ремонтом в режиме
-                    реального времени с компьютера или мобильного телефона
+                    Специальные условия от поставщиков мебели для наших клиентов
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer"/>
+                  <img
+                    src={"/qalam_ruchka_icon.png"}
+                    alt="qalam"
+                    referrerpolicy="no-referrer"
+                  />
                 </div>
-              </div>{" "}
-              <div className="rounded-[20px]">
+              </div>
+              <div className="rounded-[20px] ">
                 <div className=" w-[320px] backdrop-blur-[13px] flex flex-col items-center justify-center p-[20px] rounded-[20px]  ">
                   <p className="font-[400] text-[18px] text-center text-white ">
-                    Установим камеру, для наблюдения за ремонтом в режиме
-                    реального времени с компьютера или мобильного телефона
+                    Даем гарантию на свои работы 2 года
                   </p>
-                  <img src={"/kamera.png"} alt="kamera" referrerpolicy="no-referrer" />
+                  <img
+                    className="py-[40px]"
+                    src={"/insturment_icon.png"}
+                    alt="insturment"
+                    referrerpolicy="no-referrer"
+                  />
                 </div>
               </div>
             </div>

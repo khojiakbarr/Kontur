@@ -1,12 +1,11 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-
 const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Kontur",
-  description: "Дизайн интерьера, ремонт жилой и коммерческой недвижимости",
+  title: "Kontur UZ",
+  description: "РЕМОНТПОД КЛЮЧ ИНТЕРЬЕР ДИЗАЙН",
 };
 
 export default function RootLayout({ children }) {

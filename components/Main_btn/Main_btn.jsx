@@ -14,14 +14,12 @@ export default function Main_btn() {
             transform: state ? "translateX(0)" : "translateX(120%)",
           }}
         >
-          {" "}
           <Link href={"/"}>
             <button className="flex items-center justify-between gap-[7px] border-2 shadow-[9px_7px_16px_0_#000] bg-white rounded-[61px] px-[15px] md:px-[22px]">
               <span className="text-[20px] w-[200px] text-center md:text-[30px] text-[#4caf50]">
                 TELEPHONE
               </span>
               <div className="w-[35px]">
-                {" "}
                 <img className="w-full" src="/icon_tel.png" alt="" />
               </div>
             </button>
@@ -32,7 +30,6 @@ export default function Main_btn() {
                 INSTAGRAM
               </span>
               <div className="w-[35px]">
-                {" "}
                 <img className="w-full" src="/icon_insta.png" alt="" />
               </div>
             </button>
@@ -43,7 +40,6 @@ export default function Main_btn() {
                 TELEGRAM
               </span>
               <div className="w-[35px]">
-                {" "}
                 <img className="w-full" src="/icon_telegram.png" alt="" />
               </div>
             </button>
@@ -54,7 +50,6 @@ export default function Main_btn() {
                 YOUTUBE
               </span>
               <div className="w-[35px]">
-                {" "}
                 <img className="w-full" src="/icon_youTube.png " alt="" />
               </div>
             </button>
