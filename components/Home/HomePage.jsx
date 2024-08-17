@@ -16,18 +16,10 @@ import React, { useEffect, useState } from "react";
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState({ isModal: false, id: null });
 
-  useEffect(() => {
-    if (isModalOpen.isModal) {
-      document.body.style.overflow = "hidden"; // Skrollni bloklash
-    } else {
-      document.body.style.overflow = "auto"; // Skrollni qayta tiklash
-    }
-  }, [isModalOpen]);
-
   return (
     <>
       <Hero />
-      <section>
+      <section className=" relative">
         <Main_btn />
         <Modal setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen} />
       </section>

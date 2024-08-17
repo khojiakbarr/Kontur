@@ -8,7 +8,7 @@ export default function TheHeader() {
           <div className=" animate_wrapper relative z-[3]">
             <div className="scroller flex gap-10">
               <Link href={"tel:+998997224753"}>
-                <div className=" flex items-center">
+                <div className=" flex items-center ">
                   <span className="nomer text-[13px] text-[#593f0d] md:text-[54px] xl:text-[50px] font-bold">
                     +998 99 722 47 53
                   </span>

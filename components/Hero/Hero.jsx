@@ -30,7 +30,7 @@ export default function Hero() {
                   className=" absolute w-[50px] md:w-[100px] right-[-30px] md:right-[-52px] top-[-10px]"
                   src={"/docs.png"}
                   alt="doc"
-                  referrerpolicy="no-referrer"
+                  referrerPolicy="no-referrer"
                 />
               </button>
             </Link>
@@ -46,7 +46,7 @@ export default function Hero() {
                   <img
                     src={"/kamera.png"}
                     alt="kamera"
-                    referrerpolicy="no-referrer"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function Hero() {
                   <img
                     src={"/qalam_ruchka_icon.png"}
                     alt="qalam"
-                    referrerpolicy="no-referrer"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Hero() {
                     className="py-[40px]"
                     src={"/insturment_icon.png"}
                     alt="insturment"
-                    referrerpolicy="no-referrer"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function Hero() {
                   <img
                     src={"/kamera.png"}
                     alt="kamera"
-                    referrerpolicy="no-referrer"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function Hero() {
                   <img
                     src={"/qalam_ruchka_icon.png"}
                     alt="qalam"
-                    referrerpolicy="no-referrer"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function Hero() {
                     className="py-[40px]"
                     src={"/insturment_icon.png"}
                     alt="insturment"
-                    referrerpolicy="no-referrer"
+                    referrerPolicy="no-referrer"
                   />
                 </div>
               </div>

@@ -4,36 +4,60 @@ const swiperdata = [
     ruTitle: "Ресторан “INFINITY”",
     enTitle: "Restaurant ",
     bg: "/swiper_bg_1.png",
+    span: "На изображении показан интерьер современного ресторана или кафе с уникальным дизайном. В качестве основных элементов дизайна можно выделить следующие аспекты:",
+    info: "Металлические и деревянные элементы: В потолке и мебели используются металлические и деревянные элементы. Это придаёт интерьеру индустриальный стиль с современным и технологичным видом.Потолочная часть: Потолок имеет значительную высоту, и на нём размещены крупные современные лампы. Лампы большие и связаны с металлическими элементами, что усиливает общий дизайн. Освещение: Источники света излучают тёплый свет, создавая уютную и приветливую атмосферу для гостей.Места для сидения: Стулья удобные, обиты мягкой тканью. Дизайн столов и стульев минималистичен, что делает интерьер ещё более открытым и комфортным.Элементы природы:Присутствие растений добавляет живости и естественности в современную среду.",
+    footer:
+      "Это место сочетает современные технологии с индустриальным стилем, создавая атмосферу комфорта и уюта для гостей.",
   },
   {
     id: 1,
     ruTitle: "Учебный центр “MAAB”",
     enTitle: "LEARNING CENTER",
     bg: "/swiper_bg_2.png",
+    span: "Интерьер центра инноваций MAAB создан с целью формирования современного и технологичного пространства. Дизайн этого центра выполнен в передовом и инновационном стиле, что способствует созданию комфортной и вдохновляющей атмосферы.",
+    info: "Современное освещение: Кольцевые светильники и вертикальная стена с зелеными растениями создают уникальную атмосферу и оживляют пространство.Яркие цветовые акценты: Разноцветные подушки и логотип Microsoft добавляют интерьеру динамики и вдохновляют на творчество. Современная мебель: Эргономичные стулья и стильные столы повышают производительность сотрудников. Зеленые растения: Добавляют естественности, улучшают внутреннюю среду и способствуют созданию здоровой рабочей атмосферы.",
+    footer:
+      "Такой интерьер идеально подходит для современных учебных центров и инновационных офисов, обеспечивая все условия для развития креативности и эффективной работы.",
   },
   {
     id: 3,
     ruTitle: "INFINITY RESIDENCE",
     enTitle: "HOME",
     bg: "/swiper_bg_4.png",
+    span: "На изображении показана современная и минималистичная кухня или зона для приёма пищи. В дизайне выделяются следующие ключевые аспекты:",
+    info: "Минималистичный подход: Общий вид очень простой и элегантный. Светлые цвета и гладкие поверхности придают кухне или зоне для приёма пищи чистоту и современность.Натуральные материалы: Стулья и стол выполнены из дерева, что добавляет тепла и естественности в интерьер. Деревянная мебель гармонирует с минималистичным стилем. Прямое освещение: Подвесные светильники на потолке имеют простой дизайн, который соответствует минималистическому стилю и придаёт помещению современный вид.Светлые цвета: Преобладают светлые и нейтральные оттенки, что делает пространство более просторным и светлым. Комбинация серого, белого и деревянного цветов создаёт спокойную и уютную атмосферу.Эргономичные стулья: Стулья имеют эргономичный дизайн для удобного сидения и обиты мягкой тканью, что обеспечивает комфорт при длительном использовании.",
+    footer:
+      "В целом, это пространство не только функционально, но и эстетически привлекательно, с акцентом на современный и уютный интерьер.",
   },
   {
     id: 4,
     ruTitle: "ALFRAGANUS",
     enTitle: "HOME",
     bg: "/swiper_bg_5.png",
+    span: "Интерьер ALFRAGANUS выполнен в современном минималистическом стиле с акцентом на чистые линии, нейтральные цвета и высококачественные материалы. Дизайн ориентирован на создание легкой и спокойной атмосферы с использованием пастельных и нейтральных тонов.",
+    info: "Нейтральная цветовая палитра: Преобладание бежевых, серых и белых оттенков создаёт спокойную и современную атмосферу.Минималистичное искусство: Абстрактная картина на стене добавляет утончённости и гармонично вписывается в общий интерьер. Удобная и современная мебель: Большой и комфортный диван создаёт идеальное место для отдыха, а чёрный журнальный столик дополняет дизайн. Освещение и атмосфера: Освещение сбалансировано таким образом, чтобы придать комнате тепло и уют.",
+    footer:
+      "Такой интерьер отражает высокий вкус и современный образ жизни, создавая комфортное и практичное пространство для проживания.",
   },
   {
     id: 5,
     ruTitle: "NEST ONE",
     enTitle: "HOME ",
     bg: "/swiper_bg_6.png",
+    span: "Nest One — один из современных и престижных жилых комплексов Узбекистана, известный своим стильным дизайном и богатством удобств. Интерьеры квартир в этом комплексе обладают следующими ключевыми элементами:",
+    info: `Современный минимализм: Дизайн интерьера выполнен в минималистичном стиле. Он выглядит просто, но элегантно и эстетично. Нейтральные и светлые цвета создают ощущение пространства и открытости. <br/> Натуральные материалы и текстуры: В интерьере широко используются дерево, текстиль и мягкая мебель. Деревянные панели и декоративные подушки придают дизайну тепло и натуральность.Элементы зелени: Интерьер дополнен элементами природы. Зеленые растения оживляют пространство и делают его более живым и свежим. Освещение: В дизайне используется многоуровневое освещение с мягким, рассеянным светом, создающим уютную и спокойную атмосферу Высококачественные материалы: В отделке и меблировке используются высококачественные и современные материалы, что придаёт интерьеру ощущение роскоши и комфорта.`,
+    footer:
+      "В целом, интерьеры Nest One ориентированы на современный образ жизни, сочетая комфорт, элегантность и близость к природе.",
   },
   {
     id: 7,
     ruTitle: "TIARA RESIDANCE",
     enTitle: "HOME ",
     bg: "/swiper_bg_8.png",
+    span: "TIARA Residence в Ташкенте отличается современным и минималистичным дизайном интерьера. На изображении можно увидеть, что в оформлении преобладают нейтральные цвета, создающие спокойную и современную атмосферу. Использование дерева, мягкие подушки и современные произведения искусства делают интерьер эстетичным и привлекательным.",
+    info: "Деревянные панели и стены: Они придают пространству естественное тепло и уют. Плоский и минималистичный диван: Обеспечивает современный комфорт. Картины с изображением мотоциклов: Придают индивидуальность и стиль интерьеру. Освещение: Линейное и встроенное освещение создает современный и элегантный вид.",
+    footer:
+      "Такой стиль интерьера представляет собой современное и практичное решение, идеально подходящее для элитных жилых комплексов в городской среде.",
   },
 ];
 
@@ -67,194 +91,178 @@ const Swiper_info_image = [
   {
     id: 0,
     swiperId: 0,
-    infoImage: "/swiper_images/Infinity_rest_1.jpg",
+    infoImage: "/images_webp/Infinity_rest_1.webp",
   },
   {
     id: 1,
     swiperId: 0,
-    infoImage: "/swiper_images/Infinity_rest_2.jpg",
+    infoImage: "/images_webp/Infinity_rest_2.webp",
   },
   {
     id: 2,
     swiperId: 0,
-    infoImage: "/swiper_images/Infinity_rest_3.jpg",
+    infoImage: "/images_webp/Infinity_rest_3.webp",
   },
   {
     id: 3,
     swiperId: 0,
-    infoImage: "/swiper_images/Infinity_rest_4.jpg",
+    infoImage: "/images_webp/Infinity_rest_4.webp",
   },
   {
     id: 4,
     swiperId: 0,
-    infoImage: "/swiper_images/Infinity_rest_5.jpg",
+    infoImage: "/images_webp/Infinity_rest_5.webp",
   },
   {
     id: 5,
     swiperId: 1,
-    infoImage: "/swiper_images/Maab_1.jpg",
+    infoImage: "/images_webp/Maab_1.webp",
   },
   {
     id: 6,
     swiperId: 1,
-    infoImage: "/swiper_images/Maab_2.jpg",
+    infoImage: "/images_webp/Maab_2.webp",
   },
   {
     id: 7,
     swiperId: 1,
-    infoImage: "/swiper_images/maab_3.jpg",
+    infoImage: "/images_webp/maab_3.webp",
   },
   {
     id: 8,
     swiperId: 1,
-    infoImage: "/swiper_images/Maab_4.jpg",
+    infoImage: "/images_webp/Maab_4.webp",
   },
   {
     id: 9,
     swiperId: 1,
-    infoImage: "/swiper_images/maab_5.jpg",
+    infoImage: "/images_webp/maab_5.webp",
   },
   {
     id: 10,
     swiperId: 3,
-    infoImage: "/swiper_images/Infinity_1.jpg",
+    infoImage: "/images_webp/Infinity_1.webp",
   },
   {
     id: 11,
     swiperId: 3,
-    infoImage: "/swiper_images/Infinity_2.jpg",
+    infoImage: "/images_webp/Infinity_2.webp",
   },
   {
     id: 12,
     swiperId: 3,
-    infoImage: "/swiper_images/Infinity_3.jpg",
+    infoImage: "/images_webp/Infinity_3.webp",
   },
   {
     id: 13,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_1.jpg",
+    infoImage: "/images_webp/alfraganus_1.webp",
   },
   {
     id: 14,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_2.jpg",
+    infoImage: "/images_webp/alfraganus_2.webp",
   },
   {
     id: 15,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_3.jpg",
+    infoImage: "/images_webp/alfraganus_3.webp",
   },
   {
     id: 16,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_4.jpg",
+    infoImage: "/images_webp/alfraganus_4.webp",
   },
   {
     id: 17,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_5.jpg",
+    infoImage: "/images_webp/alfraganus_5.webp",
   },
   {
     id: 18,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_6.jpg",
+    infoImage: "/images_webp/alfraganus_6.webp",
   },
   {
     id: 19,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_7.jpg",
+    infoImage: "/images_webp/alfraganus_7.webp",
   },
   {
     id: 20,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_8.jpg",
+    infoImage: "/images_webp/alfraganus_8.webp",
   },
   {
     id: 21,
     swiperId: 4,
-    infoImage: "/swiper_images/alfraganus_9.jpg",
+    infoImage: "/images_webp/alfraganus_9.webp",
   },
   {
     id: 22,
     swiperId: 5,
-    infoImage: "/swiper_images/nest_1.jpg",
+    infoImage: "/images_webp/nest_1.webp",
   },
   {
     id: 23,
     swiperId: 5,
-    infoImage: "/swiper_images/nest_2.jpg",
+    infoImage: "/images_webp/nest_2.webp",
   },
   {
     id: 24,
     swiperId: 5,
-    infoImage: "/swiper_images/nest_3.jpg",
+    infoImage: "/images_webp/nest_3.webp",
   },
   {
     id: 25,
     swiperId: 5,
-    infoImage: "/swiper_images/nest_4.jpg",
+    infoImage: "/images_webp/nest_4.webp",
   },
   {
     id: 26,
     swiperId: 5,
-    infoImage: "/swiper_images/nest_5.jpg",
+    infoImage: "/images_webp/nest_5.webp",
   },
-  {
-    id: 27,
-    swiperId: 6,
-    infoImage: "https://telegra.ph/file/9798aafc2b5a0965db64f.jpg",
-  },
-  {
-    id: 28,
-    swiperId: 6,
-    infoImage:
-      "https://domtut.uz/resources/uploads/property/realty/692827-4komn-kv135/main_0.webp",
-  },
-  {
-    id: 29,
-    swiperId: 6,
-    infoImage:
-      "https://frankfurt.apollo.olxcdn.com/v1/files/cxn1rqe55vu-UZ/image",
-  },
+
   {
     id: 30,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial.jpg",
+    infoImage: "/images_webp/Trial.webp",
   },
   {
     id: 31,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_2.jpg",
+    infoImage: "/images_webp/Trial_2.webp",
   },
   {
     id: 32,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_3.jpg",
+    infoImage: "/images_webp/Trial_3.webp",
   },
   {
     id: 33,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_4.jpg",
+    infoImage: "/images_webp/Trial_4.webp",
   },
   {
     id: 34,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_5.jpg",
+    infoImage: "/images_webp/Trial_5.webp",
   },
   {
     id: 35,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_6.jpg",
+    infoImage: "/images_webp/Trial_6.webp",
   },
   {
     id: 36,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_7.jpg",
+    infoImage: "/images_webp/Trial_7.webp",
   },
   {
     id: 37,
     swiperId: 7,
-    infoImage: "/swiper_images/Trial_8.jpg",
+    infoImage: "/images_webp/Trial_8.webp",
   },
 ];
 

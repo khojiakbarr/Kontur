@@ -8,7 +8,7 @@ export default function FiveShag() {
         <div className="flex ">
           <h2 className="text-[#593f0d] font-normal text-center text-[30px] md:text-[40px] mt-[40px] md:mt-[80px] mb-[18px] w-[600px]">
             {" "}
-            <span className="text-[#ffc858] font-bold">5 шагов</span> до ремонта
+            <span className="text-[#ffc858] font-bold">6 шагов</span> до ремонта
             вашей мечты
           </h2>
         </div>

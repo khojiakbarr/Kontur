@@ -16,7 +16,7 @@ export default function Main_btn() {
             transform: state ? "translateX(0)" : "translateX(120%)",
           }}
         >
-          <Link href={"/"}>
+          <Link href={"tel:+998 99 722 47 53"}>
             <button className="flex items-center justify-between gap-[7px] border-2 shadow-[9px_7px_16px_0_#000] bg-white rounded-[61px] px-[15px] md:px-[22px]">
               <span className="text-[20px] w-[200px] text-center md:text-[30px] text-[#4caf50]">
                 TELEPHONE
@@ -26,7 +26,7 @@ export default function Main_btn() {
               </div>
             </button>
           </Link>
-          <Link href={"/"}>
+          <Link href={"https://www.instagram.com/kontur_uz"}>
             <button className="flex items-center justify-between gap-[7px] border-2 shadow-[9px_7px_16px_0_#000] bg-white rounded-[61px] px-[15px] md:px-[22px]">
               <span className="text-[20px] w-[200px] text-center md:text-[30px] text-[#c0009f]">
                 INSTAGRAM

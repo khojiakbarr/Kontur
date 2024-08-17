@@ -11,10 +11,10 @@ export default function FacilitiesCard({ setIsModalOpen, data, isModalOpen }) {
       }}
     >
       <div className="w-full h-full flex items-center justify-center flex-col">
-        <p className="text-[33.75px] text-center text-white whitespace-nowrap">
+        <p className=" text-[25px] md:text-[33.75px] text-center text-white whitespace-nowrap">
           {data && data.ruTitle}
         </p>
-        <p className=" h-[42.19px] text-[33.75px] font-bold text-center text-[#ffc771] whitespace-nowrap">
+        <p className=" h-[42.19px] text-[25px] md:text-[33.75px] font-bold text-center text-[#ffc771] whitespace-nowrap">
           {data && data.enTitle}
         </p>
       </div>
