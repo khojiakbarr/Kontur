@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -15,24 +16,24 @@ export default function Footer() {
                 <h3 className="text-[18px] md:text-[22px] lg:text-[25px] font-bold text-left text-[#ffc858]">
                   E-mail
                 </h3>
-                <a
+                <Link
                   className="text-[16px] lg:text-[22px] font-bold text-left text-[#5a5859] underline"
-                  href="mailto:info@remont.ru"
+                  href="mailto:info@kontur.uz"
                 >
-                  info@remont.ru
-                </a>
+                  info@kontur.uz
+                </Link>
               </div>
 
               <div className="w-auto md:w-full">
                 <h3 className="text-[18px] md:text-[22px] lg:text-[25px] font-bold text-left text-[#ffc858]">
                   Телефон
                 </h3>
-                <a
+                <Link
                   className="text-[16px] lg:text-[22px] font-bold text-left text-[#5a5859] underline"
                   href="tel:+998997224753"
                 >
                   +998 99 722 47 53
-                </a>
+                </Link>
               </div>
 
               <div className="w-auto md:w-full">
