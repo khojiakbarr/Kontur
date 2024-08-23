@@ -264,6 +264,22 @@ const Swiper_info_image = [
     swiperId: 7,
     infoImage: "/images_webp/Trial_8.webp",
   },
+  {
+    id: 38,
+    swiperId: 0,
+    infoVideo: (
+      <iframe
+        width="560"
+        height="600"
+        src="https://www.youtube.com/embed/-j5hmLZfeec?si=p0V5FUGwX5HGLgT3"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; auto-pause;"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    ),
+  },
 ];
 
 export { swiperdata, Swiper_info_image };

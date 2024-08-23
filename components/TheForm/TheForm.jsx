@@ -28,7 +28,6 @@ export default function TheForm() {
   const handleInputChange = (e) => {
     const rawValue = e.target.value;
     const formattedValue = formatPhoneNumber(rawValue);
-
     setPhoneNumber(formattedValue);
   };
 
@@ -126,7 +125,6 @@ export default function TheForm() {
                       type="text"
                       id="phone"
                       autoComplete="off"
-                      value={phoneNumber}
                       onChange={(e) => handleInputChange(e)}
                       placeholder="+998 90 993 87 01"
                     />

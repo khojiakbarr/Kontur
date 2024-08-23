@@ -14,7 +14,11 @@ import TheForm from "@/components/TheForm/TheForm";
 import React, { useEffect, useState } from "react";
 
 export default function Home() {
-  const [isModalOpen, setIsModalOpen] = useState({ isModal: false, id: null });
+  const [isModalOpen, setIsModalOpen] = useState({
+    isModal: false,
+    id: null,
+    isPause: false,
+  });
 
   return (
     <>
