@@ -3,8 +3,18 @@
 import React from "react";
 import "./Contact.css";
 import { FloatingLabel } from "flowbite-react";
+import { useForm } from "react-hook-form";
+import { SendMessage } from "@/utils/SendMessage";
 
 export default function Contact() {
+  const { handleSubmit, register, reset } = useForm();
+
+  const getData = (data) => {
+    console.log(data);
+    SendMessage({ newData: data });
+    reset();
+  };
+
   return (
     <section id="contact">
       <div className="bg_contact">
@@ -33,7 +43,10 @@ export default function Contact() {
           </div>
           {/* ///Right */}
           <div className="flex-1 flex flex-col items-center md:items-end mt-[400px] md:mt-[30px]">
-            <form className="bg-[#FF8A00] w-[300px] md:w-[400px] rounded-[10px] mr-[30px] mb-[30px]">
+            <form
+              onSubmit={handleSubmit((data) => getData(data))}
+              className="bg-[#FF8A00] w-[300px] md:w-[400px] rounded-[10px] mr-[30px] mb-[30px]"
+            >
               <div className="bg-white py-[28px] px-[30px] rounded-[10px] translate-x-[-10px] translate-y-[-15px]">
                 <h2 className="font-bold text-[#593f0d] text-xl md:text-3xl ">
                   Укажите ваши контакты
@@ -46,6 +59,7 @@ export default function Contact() {
                     variant="standard"
                     label=" Ваше имя"
                     className="peer-focus:text-orange-300 focus:border-orange-300  "
+                    {...register("name")}
                   />
                 </div>
                 <div className="mt-[20px]">
@@ -54,6 +68,7 @@ export default function Contact() {
                     label="Телефон"
                     className="peer-focus:text-orange-300 focus:border-orange-300"
                     type="tel"
+                    {...register("phone")}
                   />
                 </div>
                 <div className="flex justify-center mt-[30px] mb-[15px] md:mb-[30px]">

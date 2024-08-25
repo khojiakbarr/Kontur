@@ -24,6 +24,8 @@ const SendMessage = async ({ newData, theForm }) => {
       });
       if (res.status == 200) {
         toast.success("Сообщение отправлено");
+      } else {
+        toast.error("Сообщение не отправлено");
       }
     } catch (err) {
       toast.error(err.message);
@@ -33,6 +35,17 @@ const SendMessage = async ({ newData, theForm }) => {
     let message = `Kontur contact:\n`;
     message += `<b>имя: </b>${newData.name} \n`;
     message += `<b>телефон: </b>${newData.phone} \n`;
+
+    const res = await axios.post(API_KEY, {
+      chat_id: CHAT_ID,
+      parse_mode: "html",
+      text: message,
+    });
+    if (res.status == 200) {
+      toast.success("Сообщение отправлено");
+    } else {
+      toast.error("Сообщение не отправлено");
+    }
   }
 };
 
