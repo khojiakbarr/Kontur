@@ -61,32 +61,6 @@ const swiperdata = [
   },
 ];
 
-// const Swiper_bg_img = [
-//   {
-//     id: 0,
-//     ,
-//   },
-//   {
-//     id: 3,
-
-//   },
-//   {
-//     id: 4,
-
-//   },
-//   {
-//     id: 5,
-
-//   },
-//   {
-//     id: 6,
-
-//   },
-//   {
-//     id: 7,
-//
-//   },
-// ];
 const Swiper_info_image = [
   {
     id: 0,
@@ -266,15 +240,34 @@ const Swiper_info_image = [
   },
   {
     id: 38,
-    swiperId: 0,
+    swiperId: 1,
     infoVideo: (
       <iframe
+        key={38}
+        id="video"
         width="560"
         height="600"
         src="https://www.youtube.com/embed/-j5hmLZfeec?si=p0V5FUGwX5HGLgT3"
+        title="Video"
+        // frameBorder="0"
+        allow="accelerometer; encrypted-media; picture-in-picture; "
+        // referrerPolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    ),
+  },
+  {
+    id: 39,
+    swiperId: 4,
+    infoVideo: (
+      <iframe
+        key={39}
+        id="video"
+        width="560"
+        height="600"
+        src="https://www.youtube.com/embed/3ELuGxcC0XI?si=LhtLnQaIkYGIg5Gi"
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; auto-pause;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>

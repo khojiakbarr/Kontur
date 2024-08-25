@@ -1,23 +1,27 @@
-"use client";
-
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { Carousel } from "flowbite-react";
 import { Swiper_info_image, swiperdata } from "@/static/swiperData";
 
 export default function Modal({ setIsModalOpen, isModalOpen }) {
-  const photos = useMemo(() => {
+  function controlIfreme(vidFunc) {
+    var synthesis = window.speechSynthesis;
+    synthesis.cancel();
+    const iframe = window.document.querySelector("#video");
+    // iframe.frames.closed = true;
+    // console.dir(iframe);
+
+    // iframe.postMessage(`{"func":"${vidFunc}"}`, "*");
+  }
+
+  let photos = useMemo(() => {
     const datas = Swiper_info_image.filter(
       (data) => data.swiperId === isModalOpen.id
     );
     return datas;
   }, [isModalOpen]);
 
-  function isPuuseVideo() {
-    const video = document.getElementById("video");
-    video.pause();
-  }
-  const item = useMemo(() => {
+  let item = useMemo(() => {
     const data = swiperdata.find((items) => items.id === isModalOpen.id);
     return data;
   }, [isModalOpen]);
@@ -38,11 +42,11 @@ export default function Modal({ setIsModalOpen, isModalOpen }) {
           <div className="pt-[30px] pr-[15px] flex justify-end">
             <IoCloseSharp
               onClick={() => {
-                isPuuseVideo();
                 setIsModalOpen({
                   ...isModalOpen,
                   isModal: !isModalOpen.isModal,
                 });
+                controlIfreme("stopVideo");
               }}
               className=" scale-150 cursor-pointer"
             />

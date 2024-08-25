@@ -1,34 +1,19 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./TheForm.css";
 import { useForm } from "react-hook-form";
+import { SendMessage } from "@/utils/SendMessage";
+import { toast } from "react-toastify";
 
 export default function TheForm() {
   const [range, setRange] = useState(5);
   const { handleSubmit, register, reset } = useForm();
 
-  // useEffect(() => {
-  //   console.log(Math.floor((+range * 100) / 300));
-  // }, [range]);
-
-  const [phoneNumber, setPhoneNumber] = useState("");
-
-  const formatPhoneNumber = (value) => {
-    // Faqat raqamlarni qoldirish
-    const cleanValue = value.replace(/\D/g, "");
-    console.log(cleanValue);
-
-    // Formatlash regex
-    return cleanValue
-      .replace(/^(\d{0,2})(\d{0,3})(\d{0,2})(\d{0,2})$/, "+998 $1 $2 $3 $4")
-      .trim();
-  };
-
-  const handleInputChange = (e) => {
-    const rawValue = e.target.value;
-    const formattedValue = formatPhoneNumber(rawValue);
-    setPhoneNumber(formattedValue);
+  const getData = (data) => {
+    const newData = { ...data, price: Math.floor(+range * 30000) };
+    SendMessage({ newData, theForm: true });
+    reset();
   };
 
   return (
@@ -59,7 +44,9 @@ export default function TheForm() {
                   className="py-[13px]"
                   {...register("tip")}
                 >
-                  <option value="">Эконом</option>
+                  <option defaultValue="Эконом" value="Эконом">
+                    Эконом
+                  </option>
                 </select>
               </div>{" "}
               <div className="flex flex-col mt-[10px] md:mt-[30px] gap-2">
@@ -68,9 +55,9 @@ export default function TheForm() {
                   name="tarif"
                   id="tarif"
                   className="py-[13px] "
-                  {...register("ploshad")}
+                  {...register("tarif")}
                 >
-                  <option value="">Жилая</option>
+                  <option value="Жилая">Жилая</option>
                 </select>
               </div>
               <div className="flex flex-col mt-[10px] md:mt-[30px]">
@@ -115,6 +102,7 @@ export default function TheForm() {
                       placeholder=""
                       autoComplete="off"
                       {...register("name")}
+                      required
                     />
                   </div>
                   <div className="flex flex-col gap-2 mt-[20px]">
@@ -125,8 +113,8 @@ export default function TheForm() {
                       type="text"
                       id="phone"
                       autoComplete="off"
-                      onChange={(e) => handleInputChange(e)}
-                      placeholder="+998 90 993 87 01"
+                      placeholder="Phone"
+                      required
                     />
                   </div>
                 </div>
