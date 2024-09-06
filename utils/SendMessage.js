@@ -13,7 +13,7 @@ const SendMessage = async ({ newData, theForm }) => {
       let message = `Cтоимость ремонта:\n`;
       message += `<b>Тип площад: </b>${newData.tip}\n`;
       message += `<b>Тарифы: </b>${newData.tarif}\n`;
-      message += `<b>Предварителний расчет: </b>${newData.price} UZS \n`;
+      message += `<b>Предварителний расчет: </b>${newData.price} y.e \n`;
       message += `<b>имя: </b>${newData.name} \n`;
       message += `<b>телефон: </b>${newData.phone} \n`;
 

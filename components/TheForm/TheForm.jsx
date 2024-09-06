@@ -1,20 +1,32 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./TheForm.css";
 import { useForm } from "react-hook-form";
 import { SendMessage } from "@/utils/SendMessage";
 import { toast } from "react-toastify";
 
 export default function TheForm() {
+  const [price, setPrice] = useState(300);
+  const [select, setSelect] = useState("Премиум");
   const [range, setRange] = useState(5);
   const { handleSubmit, register, reset } = useForm();
 
   const getData = (data) => {
-    const newData = { ...data, price: Math.floor(+range * 30000) };
+    const newData = { ...data, price: Math.floor(+range * price) };
     SendMessage({ newData, theForm: true });
     reset();
   };
+
+  useEffect(() => {
+    if (select === "Эконом") setPrice(145);
+    if (select === "Стандарт") setPrice(245);
+    if (select === "Премиум") setPrice(300);
+  }, [select]);
+
+  function handleSelect(e) {
+    setSelect(e.target.value);
+  }
 
   return (
     <section id="form_info">
@@ -43,12 +55,15 @@ export default function TheForm() {
                   id="tip"
                   className="py-[13px]"
                   {...register("tip")}
+                  onChange={(e) => handleSelect(e)}
                 >
-                  <option defaultValue="Эконом" value="Эконом">
-                    Эконом
+                  <option defaultValue="Премиум" value="Премиум">
+                    Премиум
                   </option>
+                  <option value="Стандарт">Стандарт</option>
+                  <option value="Эконом">Эконом</option>
                 </select>
-              </div>{" "}
+              </div>
               <div className="flex flex-col mt-[10px] md:mt-[30px] gap-2">
                 <label htmlFor="tarif ">Тарифы</label>
                 <select
@@ -88,18 +103,17 @@ export default function TheForm() {
                 <div>
                   <h2>Предварителний расчет: </h2>
                   <h3 className="text-lg font-bold">
-                    итого:{" "}
-                    <span className="">{Math.floor(+range * 30000)} UZS.</span>
+                    итого: <span>{Math.floor(+range * price)} y.e</span>
                   </h3>
                 </div>
                 <div className="my-[30px]">
                   <div className="flex flex-col gap-2">
                     <label htmlFor="name">Ваше имя</label>
                     <input
-                      className="  outline-none"
+                      className="outline-none"
                       type="text"
                       id="name"
-                      placeholder=""
+                      placeholder="Name"
                       autoComplete="off"
                       {...register("name")}
                       required

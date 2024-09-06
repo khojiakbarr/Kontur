@@ -12,7 +12,6 @@ import Modal from "@/components/Modal/Modal";
 import MySwiper from "@/components/MySwiper/MySwiper";
 import TheForm from "@/components/TheForm/TheForm";
 import React, { useState } from "react";
-import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState({
@@ -34,7 +33,7 @@ export default function Home() {
       <Contact />
       <FiveShag />
       <Companies />
-      <TheCarusel />
+      {/* <TheCarusel /> */}
       <Footer />
     </>
   );
