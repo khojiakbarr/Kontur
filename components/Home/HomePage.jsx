@@ -1,6 +1,6 @@
 "use client";
 
-import TheCarusel from "@/components/Carosel/TheCarusel";
+// import TheCarusel from "@/components/Carosel/TheCarusel";
 import Companies from "@/components/Companies/Companies";
 import Contact from "@/components/Contact/Contact";
 import Doverya from "@/components/Doverya/Doverya";

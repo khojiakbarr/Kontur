@@ -8,12 +8,7 @@ export default function Modal({ setIsModalOpen, isModalOpen }) {
     var synthesis = window.speechSynthesis;
     synthesis.cancel();
     const iframe = window.document.querySelector("#video");
-    // iframe.frames.closed = true;
-    // console.dir(iframe);
-
-    // iframe.postMessage(`{"func":"${vidFunc}"}`, "*");
   }
-
   let photos = useMemo(() => {
     const datas = Swiper_info_image.filter(
       (data) => data.swiperId === isModalOpen.id

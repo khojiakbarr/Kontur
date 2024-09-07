@@ -3,7 +3,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-const CHAT_ID = "-4522338421";
+const CHAT_ID = "-4543236365";
 const TOKEN = "7492440970:AAGOvJNdQM6Ielm04x9t8v3IiCunYLO3B9E";
 const API_KEY = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
