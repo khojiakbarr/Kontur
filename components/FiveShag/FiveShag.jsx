@@ -57,7 +57,7 @@ export default function FiveShag() {
             {" "}
             <img
               className=" object-center scale-150"
-              src={"instrment_jp.png"}
+              src={"instrment_jp.webp"}
               alt=""
               referrerPolicy="no-referrer"
             />

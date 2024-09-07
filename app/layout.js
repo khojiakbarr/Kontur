@@ -3,7 +3,7 @@ import "./globals.css";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
-export const metadata = {
+export const metaData = {
   title: "Kontur UZ",
   description: "РЕМОНТПОД КЛЮЧ ИНТЕРЬЕР ДИЗАЙН",
 };

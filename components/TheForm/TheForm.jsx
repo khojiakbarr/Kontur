@@ -141,7 +141,7 @@ export default function TheForm() {
             <div className="  h-[700px] overflow-hidden ">
               <img
                 className="w-full"
-                src={"/remont.jpg"}
+                src={"/remont.webp"}
                 alt="image"
                 referrerPolicy="no-referrer"
               />
@@ -149,7 +149,7 @@ export default function TheForm() {
             <div className="absolute bottom-[-270px] right-[-100px] w-[400px]">
               <img
                 className="w-full"
-                src={"/lesa.png"}
+                src={"/lesa.webp"}
                 alt="leso"
                 referrerPolicy="no-referrer"
               />{" "}

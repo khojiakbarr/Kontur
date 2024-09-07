@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 
 export default function Companies() {
   return (
@@ -17,15 +16,14 @@ export default function Companies() {
             </p>
           </div>
           <div className=" w-full flex justify-center mt-[17px] flex-col items-center">
-            {" "}
             <img
-              src={"/companies_jp.jpg"}
+              src={"/companies_jp.webp"}
               alt="componies"
               referrerPolicy="no-referrer"
             />
             <img
               className=" hidden md:block absolute bottom-[-150px] left-0"
-              src={"/arava.png"}
+              src={"/arava.webp"}
               alt=""
               referrerPolicy="no-referrer"
             />{" "}
