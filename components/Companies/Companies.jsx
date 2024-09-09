@@ -24,13 +24,13 @@ export default function Companies() {
             <img
               className=" hidden md:block absolute bottom-[-150px] left-0"
               src={"/arava.webp"}
-              alt=""
+              alt="arava"
               referrerPolicy="no-referrer"
             />{" "}
             <img
               className=" hidden md:block absolute bottom-[-50px] right-0"
               src={"/bonka_kraska.png"}
-              alt=""
+              alt="kraska"
               referrerPolicy="no-referrer"
             />
             <div className="flex justify-center my-[50px] ">
@@ -59,7 +59,11 @@ export default function Companies() {
             </button>
           </div>
           <div className="hidden md:block">
-            <img src={"/one_more.png"} alt="" referrerPolicy="no-referrer" />
+            <img
+              src={"/one_more.png"}
+              alt="yana"
+              referrerPolicy="no-referrer"
+            />
           </div>
         </div>
       </div>

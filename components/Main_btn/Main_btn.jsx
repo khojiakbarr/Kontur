@@ -22,7 +22,7 @@ export default function Main_btn() {
                 TELEPHONE
               </span>
               <div className="w-[35px]">
-                <img className="w-full" src="/icon_tel.png" alt="" />
+                <img className="w-full" src="/icon_tel.png" alt="icon_tel" />
               </div>
             </button>
           </Link>
@@ -32,7 +32,11 @@ export default function Main_btn() {
                 INSTAGRAM
               </span>
               <div className="w-[35px]">
-                <img className="w-full" src="/icon_insta.png" alt="" />
+                <img
+                  className="w-full"
+                  src="/icon_insta.png"
+                  alt="icon_instagram"
+                />
               </div>
             </button>
           </Link>
@@ -42,7 +46,11 @@ export default function Main_btn() {
                 TELEGRAM
               </span>
               <div className="w-[35px]">
-                <img className="w-full" src="/icon_telegram.png" alt="" />
+                <img
+                  className="w-full"
+                  src="/icon_telegram.png"
+                  alt="icon_telegram"
+                />
               </div>
             </button>
           </Link>
@@ -52,7 +60,11 @@ export default function Main_btn() {
                 YOUTUBE
               </span>
               <div className="w-[35px]">
-                <img className="w-full" src="/icon_youTube.png " alt="" />
+                <img
+                  className="w-full"
+                  src="/icon_youTube.png "
+                  alt="icon_you_tube"
+                />
               </div>
             </button>
           </Link>

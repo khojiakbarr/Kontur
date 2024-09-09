@@ -59,7 +59,7 @@ export default function Modal({ setIsModalOpen, isModalOpen }) {
                       <img
                         key={data.id}
                         src={data.infoImage}
-                        alt="..."
+                        alt="info"
                         referrerPolicy="no-referrer"
                         className="w-full h-full "
                       />

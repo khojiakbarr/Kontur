@@ -54,11 +54,10 @@ export default function FiveShag() {
             />
           </div>
           <div className=" lg:w-[600px] object-cover hidden lg:block relative z-[-1]">
-            {" "}
             <img
               className=" object-center scale-150"
               src={"instrment_jp.webp"}
-              alt=""
+              alt="tool"
               referrerPolicy="no-referrer"
             />
           </div>

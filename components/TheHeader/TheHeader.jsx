@@ -29,35 +29,7 @@ export default function TheHeader() {
           />
         </Link>
         <ul className={` flex gap-[6px] items-center md:gap-[12px]`}>
-          <li className=" w-[50px] md:w-auto">
-            {/* {!state && (
-              <div className=" text-[8px] text-white md:text-[24px] ml-[20px] ">
-                <span className="md:w-[100px] ">
-                  Связаться с нами чере месседжеры
-                </span>
-              </div>
-            )} */}
-          </li>
-          {/* <li className={`${state ? "hidden" : "block"} w-[30px]`}>
-            <Link to={"/"}>
-              <img className="w-full" src={insta} alt="" />
-            </Link>
-          </li>
-          <li className={`${state ? "hidden" : "block"} w-[30px]`}>
-            <Link to={"/"}>
-              <img className="w-full" src={youtube} alt="" />
-            </Link>
-          </li>
-          <li className={`${state ? "hidden" : "block"} w-[30px]`}>
-            <Link to={"/"}>
-              <img className="w-full" src={tel} alt="" />
-            </Link>
-          </li>
-          <li className={`${state ? "hidden" : "block"} w-[30px]`}>
-            <Link to={"/"}>
-              <img className="w-full" src={tg} alt="" />
-            </Link>
-          </li> */}
+          <li className=" w-[50px] md:w-auto"></li>
         </ul>
       </nav>
     </header>

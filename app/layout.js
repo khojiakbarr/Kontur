@@ -4,13 +4,13 @@ import "./globals.css";
 const inter = Montserrat({ subsets: ["latin"] });
 
 export const metaData = {
-  title: "Kontur UZ",
-  description: "РЕМОНТПОД КЛЮЧ ИНТЕРЬЕР ДИЗАЙН",
+  title: "Kontur Uz",
+  description: "Дизайн интерьера, ремонт жилой и коммерческой недвижимости",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <link rel="icon" href="/Kontur_logo.svg" sizes="any" />
       <body className={inter.className}>{children}</body>
     </html>
