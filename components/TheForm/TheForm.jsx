@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import "./TheForm.css";
 import { useForm } from "react-hook-form";
 import { SendMessage } from "@/utils/SendMessage";
-import Head from "next/head";
 
 export default function TheForm() {
   const [price, setPrice] = useState(300);

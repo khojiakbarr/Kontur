@@ -4,16 +4,14 @@ import Head from "next/head";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
-// export const metaData = {
-//   title: "Kontur Uz",
-//   description: "Дизайн интерьера, ремонт жилой и коммерческой недвижимости",
-// };
-
+export const metadata = {
+  title: "Контур",
+  description: "Выполним ремонт точно в срок с гарантией по договору",
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="ru">
       <Head>
-        <title>Kontur</title>
         <meta
           name="viewport"
           content="initial-scale=1.0, width=device-width"
