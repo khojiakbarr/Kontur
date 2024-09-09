@@ -4,7 +4,7 @@ import "react-toastify/dist/inject-style";
 import ToastWrapper from "@/components/TastWrapper/ToastWrapper";
 
 export const metadata = {
-  title: "Рассчитайте стоимость ремонта",
+  title: "Контур",
   description: "Выполним ремонт точно в срок с гарантией по договору",
 };
 
