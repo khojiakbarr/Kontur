@@ -30,13 +30,6 @@ export default function TheForm() {
 
   return (
     <section id="form_info">
-      <Head>
-        <title>Рассчитайте стоимость ремонта</title>
-        <meta
-          name="description"
-          content="Выполним ремонт точно в срок с гарантией по договору"
-        />
-      </Head>
       <div className=" relative mb-[120px] md:mb-[350px]">
         <div className="relative z-[2]">
           <div className="bg_form h-[190px] md:h-[420px] absolute w-full">

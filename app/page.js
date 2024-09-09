@@ -3,10 +3,10 @@ import HomePage from "@/components/Home/HomePage";
 import "react-toastify/dist/inject-style";
 import ToastWrapper from "@/components/TastWrapper/ToastWrapper";
 
-// export const metadata = {
-//   title: "Kontur",
-//   description: "Дизайн интерьера, ремонт жилой и коммерческой недвижимости",
-// };
+export const metadata = {
+  title: "Рассчитайте стоимость ремонта",
+  description: "Выполним ремонт точно в срок с гарантией по договору",
+};
 
 export default function Home() {
   return (
