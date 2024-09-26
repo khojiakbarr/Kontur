@@ -5,7 +5,6 @@ import Companies from "@/components/Companies/Companies";
 import Contact from "@/components/Contact/Contact";
 import Doverya from "@/components/Doverya/Doverya";
 import FiveShag from "@/components/FiveShag/FiveShag";
-import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Main_btn from "@/components/Main_btn/Main_btn";
 import Modal from "@/components/Modal/Modal";
@@ -13,7 +12,7 @@ import MySwiper from "@/components/MySwiper/MySwiper";
 import TheForm from "@/components/TheForm/TheForm";
 import React, { useState } from "react";
 
-export default function Home() {
+export default function HomePage() {
   const [isModalOpen, setIsModalOpen] = useState({
     isModal: false,
     id: null,
@@ -34,7 +33,6 @@ export default function Home() {
       <FiveShag />
       <Companies />
       {/* <TheCarusel /> */}
-      
     </>
   );
 }

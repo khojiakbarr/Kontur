@@ -4,21 +4,21 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="bg_hero overflow-hidden">
+    <section className="bg_hero overflow-hidden">
       <div className="pt-[40px] md:pt-[80px] container mx-auto px-[15px]">
         <div className="wrapper  relative z-[0]  flex justify-between">
           <div className="hero_title">
-            <p className="md:text-[24px] font-[400] text-black flex items-center gap-1 mb-[5px]">
-              <p className=" relative z-[10] w-[22px] h-[22px] bg-green-400 rounded-[30px]"></p>
+            <h6 className="md:text-[24px] font-[400] text-black flex items-center gap-1 mb-[5px]">
+              <span className=" relative z-[10] w-[22px] h-[22px] bg-green-400 rounded-[30px]"></span>
               Ежедневно с 9:00 до 18:00
-            </p>
+            </h6>
             <h1 className="md:text-[40px] w-[375px] md:w-[700px] text-[#593f0d]">
               Дизайн интерьера, ремонт жилой и коммерческой недвижимости <br />
-              <span className="text-[#ffcf6e] font-bold md:font-[400]">
+              <span className="text-[#ff8a00] font-bold md:font-[400]">
                 под ключ в Тюмени
               </span>
             </h1>
-            <p className=" h-[3px] w-[40px] md:w-[100px] bg-[#ffcf6e] my-[7px] md:my-[10px]"></p>
+            <span className="block h-[3px] w-[40px] md:w-[100px] bg-[#ff8a00] my-[7px] md:my-[10px]"></span>
             <h2 className=" md:text-[24px] font-[400] w-[250px] md:w-[400px]">
               Выполним ремонт точно в срок с гарантией по договору
             </h2>
@@ -118,6 +118,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
