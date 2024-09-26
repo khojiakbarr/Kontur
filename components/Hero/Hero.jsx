@@ -15,7 +15,7 @@ export default function Hero() {
             <h1 className="md:text-[40px] w-[375px] md:w-[700px] text-[#593f0d]">
               Дизайн интерьера, ремонт жилой и коммерческой недвижимости <br />
               <span className="text-[#ff8a00] font-bold md:font-[400]">
-                под ключ в Тюмени
+                под ключ в Ташкенте
               </span>
             </h1>
             <span className="block h-[3px] w-[40px] md:w-[100px] bg-[#ff8a00] my-[7px] md:my-[10px]"></span>
